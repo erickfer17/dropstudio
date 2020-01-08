@@ -5,8 +5,7 @@ $background: rgba(0,0,0,0.5);
 }
 .navbar{
     width: 100%;
-    visibility: hidden;
-    position: absolute;
+    visibility: visible;
     background-color: #182652!important;
     .navbar-fixed-top.scrolled {
     visibility: visible;
@@ -30,5 +29,6 @@ $background: rgba(0,0,0,0.5);
     .collapse, .navbar-nav {
         border: none;
     }
+    
    
 }
