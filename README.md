@@ -1,6 +1,6 @@
 # Dropstudio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21, Bootstrap and Paralax
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21, Bootstrap version 4.4.1 and Paralax
 
 ## Development server
 
