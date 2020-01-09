@@ -8,13 +8,15 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { WidgetBarComponent } from './widget-bar/widget-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import { AboutAreaComponent } from './about-area/about-area.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     CarouselComponent,
-    WidgetBarComponent
+    WidgetBarComponent,
+    AboutAreaComponent
   ],
   imports: [
     BrowserModule,

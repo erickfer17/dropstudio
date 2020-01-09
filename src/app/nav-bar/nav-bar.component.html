@@ -3,7 +3,7 @@
         <script>
             $(function () {
                 $(document).scroll(function () {
-                    var $nav = $(".navbar-fixed-top");
+                    var $nav = $(".navbar");
                     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
                 });
                 });
@@ -11,7 +11,7 @@
     </head>
     <body>
         
-            <nav class="navbar navbar-expand-xl navbar-fixed-top navbar-dark">
+            <nav class="navbar navbar-expand-xl fixed-top navbar-dark">
                     <a class="navbar-brand" href="#"><img id="logo" src="../../assets/nav-bar/logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -37,5 +37,6 @@
                   </nav>  
                   <app-carousel id="Car"></app-carousel>
                   <app-widget-bar></app-widget-bar>
+                  <app-about-area></app-about-area>
     </body>
 </Html>

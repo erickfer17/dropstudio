@@ -5,12 +5,12 @@ $background: rgba(0,0,0,0.5);
 }
 .navbar{
     width: 100%;
-    visibility: visible;
+    visibility: hidden;
     background-color: #182652!important;
-    .navbar-fixed-top.scrolled {
+    .navbar .scrolled {
     visibility: visible;
-    transition: visibility 200ms linear;
-    }   
+    transition: visibility 20ms linear;
+    }  
     #logo{
         visibility: visible;
         display: inline-block;
