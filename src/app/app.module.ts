@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServicesComponent } from './services/services.component';
+import { SubscritionareaComponent } from './subscritionarea/subscritionarea.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ServicesComponent } from './services/services.component';
     WidgetBarComponent,
     AboutAreaComponent,
     AboutUsComponent,
-    ServicesComponent
+    ServicesComponent,
+    SubscritionareaComponent
   ],
   imports: [
     BrowserModule,
