@@ -1,0 +1,49 @@
+:host{
+    position: relative;
+}
+.bar{
+    display: grid;
+    height: 18%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #182652;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "schelude ubication contac";
+
+    #text{
+        color: white;
+        display: inline-block;
+        text-align: center;
+        line-height:0px;
+        p{
+            font-size: 1vw;
+        }
+    }
+    .schelude, .ubication, .contac{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .schelude{
+        grid-area: schelude;
+        
+    }
+    .ubication{
+        grid-area: ubication;
+           }
+    .contac{
+        grid-area: contac;
+            }
+    .white-icon {
+        width: 30%;
+        margin-top: -10%;
+        color: white;
+        font-size: 5vw;
+    }
+}
