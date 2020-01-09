@@ -7,10 +7,7 @@ $background: rgba(0,0,0,0.5);
     width: 100%;
     visibility: hidden;
     background-color: #182652!important;
-    .navbar .scrolled {
-    visibility: visible;
-    transition: visibility 20ms linear;
-    }  
+    
     #logo{
         visibility: visible;
         display: inline-block;
@@ -24,11 +21,14 @@ $background: rgba(0,0,0,0.5);
     }
     .navbar-nav{
         margin-left: 70%;
-    }
-    
+    } 
     .collapse, .navbar-nav {
         border: none;
-    }
-    
-   
+    } 
+}
+
+.navbar-inverse{
+    background-color: #182652!important;
+    color: white;
+    visibility:visible;
 }

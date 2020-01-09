@@ -1,0 +1,37 @@
+section {
+  padding: 60px 0;
+}
+section .section-title {
+  text-align: center;
+  color: black;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+#what-we-do {
+  background: #ffffff;
+}
+#what-we-do .card {
+  padding: 1rem !important;
+  border: none;
+  margin-bottom: 1rem;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+#what-we-do .card .card-block {
+  padding-left: 50px;
+  position: relative;
+}
+
+#what-we-do .card .card-block a i {
+  display: none;
+}
+#what-we-do .card:hover .card-block a i {
+  display: inline-block;
+  font-weight: 700;
+}
+
+img {
+  width: 50px;
+}

@@ -1,42 +1,32 @@
 <Html>
-    <head>
-        <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $(".navbar");
-                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                });
-                });
-        </script>
-    </head>
-    <body>
-        
-            <nav class="navbar navbar-expand-xl fixed-top navbar-dark">
-                    <a class="navbar-brand" href="#"><img id="logo" src="../../assets/nav-bar/logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                      </ul>
-                      
-                    </div>
-                  </nav>  
-                  <app-carousel id="Car"></app-carousel>
-                  <app-widget-bar></app-widget-bar>
-                  <app-about-area></app-about-area>
-    </body>
+<body>
+  <nav class="navbar navbar-expand-xl fixed-top navbar-dark" (scroll)="onWindowScroll($event)">
+    <a class="navbar-brand" href="#"><img id="logo" src="../../assets/nav-bar/logo.png" alt="" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <app-carousel></app-carousel>
+  <app-widget-bar></app-widget-bar>
+  <app-about-area id="about"></app-about-area>
+  <app-about-us></app-about-us>
+  <app-services></app-services>
+</body>
 </Html>

@@ -1,0 +1,59 @@
+.view{
+    background-image: url(../../assets/aboutusarea/bannerParalax.png); 
+    background-attachment: fixed; 
+    height: 100%;
+    
+    #imgparalax{
+        width: 70%;
+    }
+
+    .full-bg-img{
+       height: 100%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+   
+    }
+    #img{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    }
+
+    #tabs{
+        height: 100%;
+        width: 50%;
+        margin-top: 35%;
+
+    
+    }
+    .nav-link{
+        text-align: center;
+        color:white;
+    }
+    
+    .bt{
+        position: relative;
+        margin-left: -60%;
+        width: 30%;
+        text-align: center;
+        font-size: 8vw;
+        color: white;
+    }
+    .msj{
+        color:white;
+        width: 80%;
+    }
+    .tab-pane{
+        color: white;
+        width: 80%;
+        text-align: justify;
+    }
+    .nav{
+        margin-left: 5%;
+    }
+}
